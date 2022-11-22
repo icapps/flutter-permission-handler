@@ -29,9 +29,7 @@
 // ios: PermissionGroupCamera
 // Info.plist: NSCameraUsageDescription
 // dart: PermissionGroup.camera
-#ifndef PERMISSION_CAMERA
-    #define PERMISSION_CAMERA 0
-#endif
+#define PERMISSION_CAMERA 0
 
 // ios: PermissionGroupMicrophone
 // Info.plist: NSMicrophoneUsageDescription
@@ -64,9 +62,7 @@
 // ios: [PermissionGroupLocation, PermissionGroupLocationAlways, PermissionGroupLocationWhenInUse]
 // Info.plist: [NSLocationUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationWhenInUseUsageDescription]
 // dart: [PermissionGroup.location, PermissionGroup.locationAlways, PermissionGroup.locationWhenInUse]
-#ifndef PERMISSION_LOCATION
-    #define PERMISSION_LOCATION 0
-#endif
+#define PERMISSION_LOCATION 0
 
 // ios: PermissionGroupNotification
 // dart: PermissionGroup.notification
