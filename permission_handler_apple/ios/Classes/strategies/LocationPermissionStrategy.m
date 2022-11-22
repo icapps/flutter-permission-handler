@@ -5,8 +5,6 @@
 
 #import "LocationPermissionStrategy.h"
 
-#if PERMISSION_LOCATION
-
 NSString *const UserDefaultPermissionRequestedKey = @"org.baseflow.permission_handler_apple.permission_requested";
 
 @interface LocationPermissionStrategy ()
@@ -183,10 +181,3 @@ NSString *const UserDefaultPermissionRequestedKey = @"org.baseflow.permission_ha
 }
 
 @end
-
-#else
-
-@implementation LocationPermissionStrategy
-@end
-
-#endif
