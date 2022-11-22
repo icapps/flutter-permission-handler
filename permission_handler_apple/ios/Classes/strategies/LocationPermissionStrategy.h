@@ -11,9 +11,3 @@
 @interface LocationPermissionStrategy : NSObject <PermissionStrategy, CLLocationManagerDelegate>
 - (instancetype)initWithLocationManager;
 @end
-
-#else
-
-#import "UnknownPermissionStrategy.h"
-@interface LocationPermissionStrategy : UnknownPermissionStrategy
-@end
