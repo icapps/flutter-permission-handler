@@ -6,8 +6,6 @@
 #import <Foundation/Foundation.h>
 #import "PermissionStrategy.h"
 
-#if PERMISSION_LOCATION
-
 #import <CoreLocation/CoreLocation.h>
 
 @interface LocationPermissionStrategy : NSObject <PermissionStrategy, CLLocationManagerDelegate>
@@ -19,5 +17,3 @@
 #import "UnknownPermissionStrategy.h"
 @interface LocationPermissionStrategy : UnknownPermissionStrategy
 @end
-
-#endif
